@@ -22,7 +22,7 @@ def binarioDecimal(value):
         decimal = 0
         while indice >= 0:
             decimal += 2**indice * int(bin[indice]) 
-            indice = indice-1           
+            indice -= 1           
         return str(decimal)
 
     for char in temp:                           #VERIFICA SE A ENTRADA É APENAS DECIMAL, SE SIM, SAÍDA APENAS BINÁRIO
@@ -36,4 +36,4 @@ def binarioDecimal(value):
         return "Binário: " + dec2Bin(value) 
 
 #TESTE
-#print("\n"+binarioDecimal(11)+"\n")
+print("\n"+binarioDecimal(11)+"\n")

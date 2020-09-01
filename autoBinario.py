@@ -2,7 +2,7 @@
 #  = https://github.com/EduFreit4s =
 # ===================================
 
-# CONVERTE BINÁRIO PARA 
+# CONVERTE BASES BINÁRIO E DECIMAL 
 
 def binarioDecimal(value):
     temp = str(value)

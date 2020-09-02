@@ -25,7 +25,7 @@ def binomioNewton(X, Sinal, Y, e):
 
     def expoenteUnicode(numero):                #RETORNA CARACTERE SOBRESCRITO
         return {                   
-            1 : '¹', 2 : '²', 3 : '³', 4 : '⁴', 5 : '⁵', 6 : '⁶', 7 : '⁷', 8 : '⁸', 9 : '⁹', 0 : '°',
+            1 : '¹', 2 : '²', 3 : '³', 4 : '⁴', 5 : '⁵', 6 : '⁶', 7 : '⁷', 8 : '⁸', 9 : '⁹', 0 : '⁰',
         }[numero] 
     
     def expoenteFlow(n):                        #CONCATENA AS UNIDADES DO EXPOENTE
